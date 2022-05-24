@@ -1,9 +1,27 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
     
 }
 .logo img{
-    width: 150px;
-    height: 200px;
+    width: 60px;
+    height: 60px;
+}
+.images {
+    /* display: flex; */
+    flex-wrap: wrap;
+    /* margin: 0 50px; */
+    /* padding: 30px; */
+}
+
+#photo {
+    max-width: 31.333%;
+    /* padding: 0 10px; */
+    height: 500px;
+}
+
+#photo img {
+    width: 500px;
+    height: 500px;
 }
