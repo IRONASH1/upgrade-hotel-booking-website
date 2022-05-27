@@ -1,8 +1,14 @@
-.required:after {
-    content:" *";
-    color: red;
-  }
-  .required:after {
-    content:" *";
-    color: red;
-  }
+.body{
+  background-color:  #e0e0e0;
+margin: 0%;  
+}
+.header{
+  background-color: rosybrown;
+}
+.footer{
+  background-color: rosybrown;
+}
+.logo img{
+  width: 60px;
+  height: 60px;
+}

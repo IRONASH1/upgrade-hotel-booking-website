@@ -1,5 +1,5 @@
 *{
-    margin: 1;
+    margin: 0;
     padding: 1;
     
 }
@@ -11,16 +11,24 @@
     /* display: flex; */
     flex-wrap: wrap;
     /* margin: 0 50px; */
-    /* padding: 30px; */
+    padding: 2%;
+    
+    
 }
 
 #photo {
     max-width: 31.333%;
     /* padding: 0 10px; */
     height: 240px;
+    background-color:  rgb(132,136,139)  ;
+    width: 40%;
 }
 
 #photo img {
     width: 150px;
     height: 150px;
+
+}
+.header{
+    background-color: rosybrown;
 }

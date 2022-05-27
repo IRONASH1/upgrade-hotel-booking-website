@@ -1,5 +1,5 @@
 *{
-    margin: 1;
+    margin: 0;
     padding: 1;
     box-sizing: border-box;
     
@@ -12,16 +12,34 @@
     display: flex;
     flex-wrap: wrap;
     /* margin: 0 50px; */
-    /* padding: 30px; */
+    padding: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .photo {
     max-width: 31.333%;
-    /* padding: 10px; */
+    padding: 4%;
     height: 240px;
+
+    /* margin-left:15%; */
+    /* margin-right: 15%; */
 }
 
 .photo img {
     width: 150px;
     height: 150px;
+    border-radius: 25%;
+}
+
+.background{
+    background: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+    height: 380px;
+    background-size: cover;
+    width: auto;
+    /* background-blend-mode: darken; */
+    position:center;
+    /* display:inline-block; */
+    
+    
 }

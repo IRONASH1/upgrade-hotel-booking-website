@@ -1,5 +1,5 @@
 *{
-    margin: 1;
+    margin: 0;
     padding: 1;
     box-sizing: border-box;
     
@@ -13,6 +13,9 @@
     flex-wrap: wrap;
     /* margin: 0 50px; */
     /* padding: 30px; */
+    margin-top: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 #photo {
@@ -24,4 +27,21 @@
 #photo img {
     width: 500px;
     height: 500px;
+}
+.form{
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.footer{
+    background-color: rosybrown;
+    margin-left: 0%;
+}
+.content{
+    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-top: 1%;
+    margin-right: 4%;
 }
