@@ -8,21 +8,29 @@
     height: 60px;
 }
 .images {
-    /* display: flex; */
+    display: flex;
     flex-wrap: wrap;
     /* margin: 0 50px; */
-    padding: 2%;
-    
-    
+    /* padding: 5%; */
+    padding-left: 9%;
+ 
 }
 
 #photo {
-    max-width: 31.333%;
+    /* max-width: 31.333%; */
     /* padding: 0 10px; */
     height: 240px;
     background-color:  rgb(132,136,139)  ;
     width: 40%;
 }
+
+#photo a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 
 #photo img {
     width: 150px;
@@ -31,4 +39,30 @@
 }
 .header{
     background-color: rosybrown;
+}
+
+.nav{
+    padding-top: 100px;
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.mapView{
+    text-decoration: none;
+}
+
+.listView{
+    width: 10%;
+    margin-left: 40%;
+}
+
+.listView a{
+    text-decoration: none;
+    color: black;
+}
+
+.mapView a{
+    text-decoration: none;
+    color: black;
 }

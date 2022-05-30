@@ -5,34 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/list.css">
+    <link rel="stylesheet" href="styles/common.css">
     <title>list</title>
 </head>
-<body style="background-color: #e0e0e0;">
+<body>
+
     <header>
-        <div class="header">
-            <a href="index.html"><div class="logo"><img src="assests/images/logo.png" alt="logo"></div></a>
-    <nav class="navbar">
-        <div><a href="login.html">LOGIN</a></div>
-        </div>
-    
-        <ul class="nav-list" style="list-style-type: circle;">
-           <div>
-            
-            <li>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <div class="logo">
+                    <img src="assests/images/logo.png" alt="logo">
+                </div>
+            </ul>
+            <div class="rightNav">
+                <a href="login.html" style="color: black;">LOGIN</a>
+            </div>
+        </nav>
+        
+    </header>
+
+        <ul class="nav">
+            <li class="listView">
                 <a href="#photo" >List View</a>
             </li>
-            <li>
+            <li class="mapView">
                 <a href="#map-view">Map View</a>
             </li>
 
-
         </ul>
-    </nav>
-</header>
+    
+
 <article>
-    <br>
      <div class="images">
-        <div id="photo">
+        <div id="photo" style="margin: 2%;">
             <a href="detail.html">
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" />
             <br>
@@ -43,7 +48,7 @@
         
         </div>
   <br><br>
-        <div id="photo">
+        <div id="photo" style="margin: 2%;">
             <a>
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg" alt="The Lalit New Delhi">
             <br>
@@ -53,7 +58,7 @@
         </a>
         </div>
           <br><br>
-        <div id="photo">
+        <div id="photo" style="margin: 2%;">
             <a>
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" alt="Taj Palace">
             <br>
@@ -69,24 +74,35 @@
         <a href="list.html"><img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="Map View"><p>Map View</p></a>
     <!-- <p>Map View</p> -->
     </div>
-    <footer style="background-color: rosybrown;">
-    <div><a href="contact.html">Contact us</a></div>
+    <div class="footer">
     
-    <a href="https://www.facebook.com/" target="_blank">
-        <img alt=Facebook src="assests/images/facebook.png"
-        width="22px" height="20">
-     </a>
-     <a href="https://www.instagram.com/" target="_blank">
-        <img alt=Instagram src="assests/images/instagram.png"
-        width="22px" height="20">
-     </a>
-     <a href="https://www.twitter.com/" target="_blank">
-        <img alt=Twitter src="assests/images/twitter.png"
-        width="22px" height="20">
-     </a>
-     <p>&#169; 2020 ROOM SEARCH PVT.LTD</p>
-
-    </div>
-</footer>
+        <nav class="navbar">
+            <div class="contact">
+                <a href="contact.html" style="color: black;">Contact us</a>
+            </div>
+            <div class="rightNav">
+              
+        <a href="https://www.facebook.com/" target="_blank">
+            <img alt=Facebook src="assests/images/facebook.png"
+            width="22px" height="20">
+         </a>
+         <a href="https://www.instagram.com/" target="_blank">
+            <img alt=Instagram src="assests/images/instagram.png"
+            width="22px" height="20">
+         </a>
+         <a href="https://www.twitter.com/" target="_blank">
+            <img alt=Twitter src="assests/images/twitter.png"
+            width="22px" height="20">
+         </a>
+            </div>
+        </nav>
+    </footer>
+        <footer style="background-color: rosybrown;">
+        
+    <center>
+        <p>&#169; 2020 ROOM SEARCH PVT.LTD</p>
+    </center>
+        
+        </div>
 </body>
 </html>

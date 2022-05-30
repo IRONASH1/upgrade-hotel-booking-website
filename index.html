@@ -5,25 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/common.css">
     <title>index</title>
 </head>
-<body style="background-color: #e0e0e0;">
+<body>
     
-    <header style="background-color: rosybrown;">
-        <a href="index.html"><div class="logo"><img src="assests/images/logo.png" alt="logo"></div></a>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <div class="logo">
+                    <img src="assests/images/logo.png" alt="logo">
+                </div>
+            </ul>
+            <div class="rightNav">
+                <a href="login.html" style="color: black;">LOGIN</a>
+            </div>
+        </nav>
         
-     <div><a href="login.html">LOGIN</a></div>
-     <!-- <div class="background"><input type="text" placeholder="city"></div> -->
-
-
-
-     <div class="background"><input type="text" placeholder="city"></div>
-
-
-     
     </header>
-<article>
+    <div class="background">
+        <div id="box"><input type="text" placeholder="city" style="border-radius: 12px; border:transparent; background:#f1f1f1">
+            
+        </div>
+    </div>
+
+    <article>
     <div class="images">
+        
         <div class="photo">
             <a href="list.html">
             <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" alt="DELHI">
@@ -37,14 +45,25 @@
         <div class="photo">
             <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt="HYDERABAD">
         </div>
-        <div class="photo"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="KOLKATA" >  </div>
+        <div class="photo"> <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt="KOLKATA" > 
+           
+        </div>
+        
+    </div>
+    <div class="viewMore">
+        <a href="index.html" style="color: black;">view more>></a>
     </div>
 </article>
 
-    <div><a href="index.html">view more>></a></div>
-    <footer style="background-color: rosybrown;">
-    <div><a href="contact.html">Contact us</a></div>
-
+    
+<div class="footer">
+    
+    <nav class="navbar">
+        <div class="contact">
+            <a href="contact.html" style="color: black;">Contact us</a>
+        </div>
+        <div class="rightNav">
+          
     <a href="https://www.facebook.com/" target="_blank">
         <img alt=Facebook src="assests/images/facebook.png"
         width="22px" height="20">
@@ -57,9 +76,16 @@
         <img alt=Twitter src="assests/images/twitter.png"
         width="22px" height="20">
      </a>
-     <p>&#169; 2020 ROOM SEARCH PVT.LTD</p>
-
-    </div>
+        </div>
+    </nav>
 </footer>
+    <footer style="background-color: rosybrown;">
+    
+<center>
+    <p>&#169; 2020 ROOM SEARCH PVT.LTD</p>
+</center>
+    
+    </div>
+
 </body>
 </html>
