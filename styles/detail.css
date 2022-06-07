@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 1;
-    box-sizing: border-box;
+  
     
 }
 .logo img{
@@ -9,31 +9,25 @@
     height: 60px;
 }
 .images {
-    /* display: flex; */
+    display: flex;
     flex-wrap: wrap;
-    /* margin: 0 50px; */
-    /* padding: 30px; */
-    margin-top: 2%;
-    margin-left: 4%;
-    margin-right: 4%;
 }
 
 #photo {
-    max-width: 31.333%;
-    /* padding: 0 10px; */
-    height: 500px;
+    height: 350px;
 }
 
 #photo img {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
+    padding-left: 125px;
+    
+    
 }
 .form{
-    margin-top: 0%;
-    margin-bottom: 1%;
-    margin-left: 0%;
-    margin-right: 0%;
 }
+
+
 .footer{
     background-color: rosybrown;
     margin-left: 0%;
@@ -45,3 +39,17 @@
     margin-top: 1%;
     margin-right: 4%;
 }
+
+table{
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-collapse: collapse;
+    height: 400px;
+    width: 1000px;
+   
+}
+
+table, th, td{
+    border:1px solid black;
+    }

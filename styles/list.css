@@ -20,13 +20,15 @@
     /* max-width: 31.333%; */
     /* padding: 0 10px; */
     height: 240px;
-    background-color:  rgb(132,136,139)  ;
+    background-color:  lightgrey  ;
     width: 40%;
 }
 
 #photo a{
     text-decoration: none;
     color: black;
+    display: flex;
+    
 }
 
 
@@ -35,6 +37,7 @@
 #photo img {
     width: 150px;
     height: 150px;
+    margin-right: 3%;
 
 }
 .header{
@@ -65,4 +68,8 @@
 .mapView a{
     text-decoration: none;
     color: black;
+}
+
+.text{
+    
 }
