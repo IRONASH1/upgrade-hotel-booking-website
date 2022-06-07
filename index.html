@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/common.css">
+    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
     <title>index</title>
 </head>
 <body>
@@ -14,15 +17,72 @@
         <nav class="navbar">
             <ul class="nav-list">
                 <div class="logo">
-                    <img src="assests/images/logo.png" alt="logo">
+                    <a href="index.html">
+                        <img src="assests/images/logo.png" alt="logo">
+                    </a>
                 </div>
             </ul>
             <div class="rightNav">
-                <a href="login.html" style="color: black;">LOGIN</a>
+                <!-- Trigger/Open The Modal -->
+<button id="myBtn" style="background-color: white;color:black;border-color:white;">LOGIN</button>
+
             </div>
         </nav>
+        </header>
+        <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4>Please Login</h4>
+    <hr>
+    <div>
+      Username: <input type="text" placeholder="Enter Username" required style="padding: 10px; margin: 10px">
+    </div>
+    <div>
+      Password: <input type="password" placeholder="Enter Password" required style="padding: 10px; margin: 10px">
+    </div>
+    <hr>
+    <br>
+    <center>
+      <a href="index.html">
+        <button style="background-color: blue;color:white;border-color:blue;">LOGIN</button>
+      </a>
+  </center>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
         
-    </header>
     <div class="background">
         <div id="box"><input type="text" placeholder="city" style="border-radius: 12px; border:transparent; background:#f1f1f1;outline: none;margin: left 100%;">
             
@@ -63,7 +123,9 @@
         
     </div>
     <div class="viewMore">
+        <button style="background-color:  #aaaaaa; border-color:#aaaaaa;">
         <a href="index.html" style="color: black;">view more>></a>
+    </button>
     </div>
 </article>
 
@@ -72,8 +134,12 @@
     
     <nav class="navbar">
         <div class="contact">
-            <a href="contact.html" style="color: black;">Contact us</a>
+            <!-- Trigger/Open The Modal -->
+<button id="myBtn" style="background-color: white;color:black;border-color:white;">Contact us</button>
+
+
         </div>
+        
         <div class="rightNav">
           
     <a href="https://www.facebook.com/" target="_blank">
