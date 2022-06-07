@@ -123,3 +123,6 @@ button:hover{
     cursor: pointer;
   }
   
+  .checked {
+    color: orange;
+  }
